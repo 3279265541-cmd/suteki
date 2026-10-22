@@ -13,14 +13,14 @@ window.SITE = {
   latin: "NUOMIJI",
   tagline: "不普通的人",
   description: "糯米鸡的个人网站：写字、拍照、做点东西，还有一个给深夜的电台。",
-  email: "hello@nuomiji.fm",
+  email: "3279265541@qq.com",
   since: 2026,
   location: "某座不睡的城市",
   /* 填上主页地址后会显示在页脚；留空就先不显示 */
   socials: [
-    // { label: "即刻", href: "https://web.okjike.com/u/你的ID" },
-    // { label: "网易云音乐", href: "https://music.163.com/#/user/home?id=你的ID" },
-    // { label: "小红书", href: "https://www.xiaohongshu.com/user/profile/你的ID" }
+    // { label: "哔哩哔哩", href: "https://space.bilibili.com/585911725?spm_id_from=333.1007.0.0" },
+    // { label: "网易云音乐", href: "https://music.163.com/#/user/home?id=7996821221" },
+    // { label: "小红书", href: "https://www.xiaohongshu.com/user/profile/6312f3cc000000000f006b38" }
   ]
 };
 
