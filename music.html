@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>音乐 — 糯米鸡</title>
+  <meta name="description" content="糯米鸡的深夜频道：三段很慢的声音，给还没睡的人。">
+  <meta name="theme-color" content="#0b0a09">
+  <meta name="color-scheme" content="dark">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="音乐 — 糯米鸡">
+  <meta property="og:description" content="三段很慢的声音，给还没睡的人。">
+  <meta property="og:image" content="assets/img/og.jpg">
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body id="top" data-page="music" data-root="">
+
+  <a class="skip-link" href="#main">跳到主要内容</a>
+  <div data-site-header></div>
+
+  <main id="main">
+    <header class="page-head">
+      <div class="wrap">
+        <p class="eyebrow">Listening Room · 深夜频道</p>
+        <h1>音乐<span class="dot">.</span></h1>
+        <p class="page-lede">
+          三段很慢的声音，给还没睡的人。<br>
+          建议戴耳机，把音量调到刚好能听见自己的呼吸。
+        </p>
+        <div class="page-meta">
+          <span>3 首</span>
+          <span>环境 / 氛围</span>
+          <span>总时长 01:30</span>
+        </div>
+      </div>
+    </header>
+
+    <section class="section" aria-label="播放器">
+      <div class="wrap">
+        <div class="player reveal" data-player>
+          <div class="player-art">
+            <img data-p-cover src="assets/img/track-night.jpg" alt="《夜航》封面" width="1000" height="1000">
+            <span class="player-no" data-p-no>01</span>
+          </div>
+
+          <div class="player-body">
+            <div class="player-head">
+              <p class="eyebrow" data-p-episode>EP.01 · SIDE A</p>
+              <h2 data-p-title>夜航</h2>
+              <p class="player-en" data-p-en>NIGHT FLIGHT</p>
+              <p class="player-note" data-p-note>给还没睡的人。低频像飞机穿过云层，什么也不说。</p>
+            </div>
+
+            <div class="viz" data-p-viz aria-hidden="true"></div>
+
+            <div class="seek">
+              <div class="seek-rail"><div class="seek-fill" data-p-fill></div></div>
+              <input class="seek-input" type="range" min="0" max="1000" step="1" value="0" data-p-seek aria-label="播放进度">
+            </div>
+            <div class="player-times">
+              <span data-p-cur>00:00</span>
+              <span data-p-dur>00:30</span>
+            </div>
+
+            <div class="player-controls">
+              <button class="ctrl" type="button" data-p-prev aria-label="上一首"></button>
+              <button class="play-big" type="button" data-p-toggle aria-label="播放">
+                <svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M8 5.4v13.2L19 12z"/></svg>
+              </button>
+              <button class="ctrl" type="button" data-p-next aria-label="下一首"></button>
+
+              <div class="volume">
+                <svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M4 9v6h4l5 4V5L8 9H4zm12.5 3a4.5 4.5 0 0 0-2-3.7v7.4a4.5 4.5 0 0 0 2-3.7z"/></svg>
+                <input type="range" min="0" max="1" step="0.01" value="0.65" data-p-volume aria-label="音量">
+              </div>
+            </div>
+
+            <p class="player-status" data-p-status role="status"></p>
+            <p class="player-kbd">空格键 播放 / 暂停</p>
+          </div>
+
+          <div class="playlist-block">
+            <p class="eyebrow playlist-label">Playlist · 3 Tracks</p>
+            <ol class="playlist" data-p-list aria-label="曲目列表"></ol>
+          </div>
+
+          <audio data-p-audio preload="metadata"></audio>
+        </div>
+
+        <div class="music-notes">
+          <div class="reveal">
+            <p class="eyebrow">Liner Notes</p>
+            <h2>关于这些声音</h2>
+          </div>
+          <div class="reveal">
+            <p>
+              这三段音乐，是做这个网站的时候顺手写出来的。没有采样包，没有插件，
+              只有一台旧电脑和几个睡不着的晚上。
+            </p>
+            <p>
+              它们不是歌，更像房间里的背景：一段低频、一点雨、一些听不清的远处。
+              你可以把它们当成工作时的底噪，也可以什么都不做，只听三分钟。
+            </p>
+            <p>
+              如果哪一段让你想起某个晚上，那它就完成了自己的工作。
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <div data-site-footer></div>
+
+  <script src="assets/js/data.js"></script>
+  <script src="assets/js/site.js"></script>
+  <script src="assets/js/player.js"></script>
+</body>
+</html>

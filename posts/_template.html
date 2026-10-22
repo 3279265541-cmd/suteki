@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>文章标题 — 糯米鸡</title>
+  <meta name="description" content="一句话概括这篇文章。">
+  <meta name="theme-color" content="#0b0a09">
+  <meta name="color-scheme" content="dark">
+  <meta property="og:type" content="article">
+  <meta property="og:title" content="文章标题 — 糯米鸡">
+  <meta property="og:image" content="../assets/img/og.jpg">
+  <link rel="icon" href="../favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="../assets/css/style.css">
+</head>
+<body id="top" data-page="blog" data-root="../">
+
+  <!--
+    ============================================================
+    新文章模板 · 使用步骤
+    ------------------------------------------------------------
+    1. 复制这个文件，改成一个英文短名，例如 my-new-post.html
+    2. 修改下面的标题、日期、标签、导语和正文
+    3. 打开 assets/js/data.js，在 POSTS 数组最上面加一条记录
+    4. 保存，刷新 blog.html，文章就会出现在列表里
+
+    常用格式：
+    <h2>小标题</h2>
+    <p>正文段落</p>
+    <blockquote>引用或想强调的话</blockquote>
+    <figure>
+      <img src="../assets/img/你的图片.jpg" alt="图片描述">
+      <figcaption>图片说明</figcaption>
+    </figure>
+    ============================================================
+  -->
+
+  <a class="skip-link" href="#main">跳到主要内容</a>
+  <div data-site-header></div>
+
+  <main id="main">
+    <article>
+      <header class="article-head">
+        <div class="wrap">
+          <div class="article-meta">
+            <span class="tag">随笔</span>
+            <span>2026.01.01</span>
+            <span>约 3 分钟</span>
+          </div>
+          <h1 class="article-title">在这里写文章标题</h1>
+          <p class="article-lede">
+            这里是导语：用一两句话把人带进来。可以短一点，也可以留一个悬念。
+          </p>
+        </div>
+      </header>
+
+      <div class="article-body">
+        <p>这是正文的第一段。你可以直接在这里写，像平时写字一样。段落之间空一行，读起来会舒服一些。</p>
+
+        <h2>一个小标题</h2>
+        <p>这是第二段。想让某句话被看见，可以单独放进引用块：</p>
+
+        <blockquote>
+          把想强调的那句话放在这里。
+        </blockquote>
+
+        <p>如果有一张配图，可以这样插入：</p>
+
+        <figure>
+          <img src="../assets/img/desk.jpg" alt="图片内容描述，方便看不见图片的人" loading="lazy">
+          <figcaption>图片说明写在这里，比如拍摄时间、地点。</figcaption>
+        </figure>
+
+        <p>写完之后，在末尾加上这一行，表示文章结束。</p>
+
+        <p class="article-end">· 完 ·</p>
+      </div>
+    </article>
+
+    <nav class="article-nav" aria-label="文章导航">
+      <a href="../blog.html">
+        <span>← 回到列表</span>
+        <strong>全部文章</strong>
+      </a>
+      <a class="next" href="../blog.html">
+        <span>回到列表 →</span>
+        <strong>全部文章</strong>
+      </a>
+    </nav>
+    <p class="article-back"><a class="link-arrow" href="../blog.html">← 回到文章列表</a></p>
+  </main>
+
+  <div data-site-footer></div>
+
+  <script src="../assets/js/data.js"></script>
+  <script src="../assets/js/site.js"></script>
+  <script src="../assets/js/player.js"></script>
+</body>
+</html>
