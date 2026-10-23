@@ -11,11 +11,11 @@
 window.SITE = {
   name: "糯米鸡",
   latin: "NUOMIJI",
-  tagline: "不普通的人",
-  description: "糯米鸡的个人网站：写字、拍照、做点东西，还有一个给深夜的电台。",
+  tagline: "您已经入互联网深海区",
+  description: "糯米鸡的个人网站：博客、拍照、神秘作品，还有一些莫名其妙的推歌。",
   email: "3279265541@qq.com",
   since: 2026,
-  location: "某座不睡的城市",
+  location: "亚西亚·赛里斯·布汗",
   /* 填上主页地址后会显示在页脚；留空就先不显示 */
   socials: [
     // { label: "哔哩哔哩", href: "https://space.bilibili.com/585911725?spm_id_from=333.1007.0.0" },
@@ -35,7 +35,7 @@ window.TRACKS = [
     src: "assets/audio/night-flight.wav",
     cover: "assets/img/track-night.jpg",
     episode: "EP.01 · SIDE A",
-    note: "给还没睡的人。低频像飞机穿过云层，什么也不说。"
+    note: "这个音乐呢其实我还没听过嘻嘻"
   },
   {
     id: "rain-window",
@@ -46,7 +46,7 @@ window.TRACKS = [
     src: "assets/audio/rain-window.wav",
     cover: "assets/img/track-rain.jpg",
     episode: "EP.01 · SIDE B",
-    note: "外面在下雨，没关系。把雨声调小一点，就当有人陪你坐着。"
+    note: "外面在下雨，没关系。把雨声调大一点，雨声就变大了。"
   },
   {
     id: "morning-mist",
@@ -57,7 +57,7 @@ window.TRACKS = [
     src: "assets/audio/morning-mist.wav",
     cover: "assets/img/track-mist.jpg",
     episode: "EP.02 · SIDE A",
-    note: "天亮之前的最后一段路。雾很重，但你知道方向。"
+    note: "天亮之前的最后一段路。雾很重，因为佩索阿觉得你弱视（？）。"
   }
 ];
 
@@ -65,24 +65,24 @@ window.TRACKS = [
 window.WORKS = [
   {
     id: "night-flight",
-    title: "夜航 · 电台节目 Vol.01",
+    title: "夜巡 ·  Vol.01",
     category: "声音",
     year: "2026",
     cover: "assets/img/work-night.jpg",
     desc: "一期没有嘉宾的夜间节目：三段音乐，两段絮语，和一段很长的沉默。",
-    detail: "从选曲、写串词到录音、剪辑，都是一个人完成的。做这期节目的时候，我把房间的灯关掉，只留一盏台灯。希望你听起来，也像坐在一个不亮的房间里。",
+    detail: "夜巡是伦勃朗的代表作（？）",
     tags: ["电台", "环境音", "自制"],
     href: "music.html",
-    hrefLabel: "去听这一期"
+    hrefLabel: "点击此处进入互联网深水区"
   },
   {
     id: "poster",
-    title: "不普通的人",
+    title: "poster是海报的意思",
     category: "视觉",
     year: "2026",
     cover: "assets/img/work-poster.jpg",
     desc: "一张给自己做的海报。没有客户，没有 brief，只有一句想了很久的话。",
-    detail: "用了很多版才定下来：一个发光的圆，一句几乎要被黑色吃掉的字。后来想，普通不普通其实没那么重要，重要的是还愿意给自己做一张海报。",
+    detail: "好像并没有做过海报。",
     tags: ["海报", "字体", "自我项目"]
   },
   {
@@ -91,8 +91,8 @@ window.WORKS = [
     category: "摄影",
     year: "2025",
     cover: "assets/img/work-city.jpg",
-    desc: "凌晨一点到四点，沿着同一条街走了七次。灯比人诚实。",
-    detail: "七次里只留下三张照片。一张是便利店的灯，一张是末班公交的尾灯，还有一张是雨里的红绿灯。白天拍不出来的东西，夜里会自己浮上来。",
+    desc: "凌晨一点到四点，我在床睡得很香。",
+    detail: "注意到晚上天是黑的。",
     tags: ["摄影", "城市", "胶片感"]
   },
   {
@@ -102,7 +102,7 @@ window.WORKS = [
     year: "2026",
     cover: "assets/img/work-site.jpg",
     desc: "你正在看的这个网站。手写 HTML 和 CSS，没有框架，没有统计代码。",
-    detail: "做这个站花的时间比想象中久，大部分时间在删东西。最后留下的，都是我愿意每天打开看一眼的。",
+    detail: "做这个站花的时间比想象中久，全都是deepseek做的，我也没看说实话呢哈哈哈。",
     tags: ["网页", "手写", "个人站"],
     href: "index.html",
     hrefLabel: "回到首页"
@@ -114,7 +114,7 @@ window.WORKS = [
     year: "2025",
     cover: "assets/img/work-zine.jpg",
     desc: "一本自己印的小册子，二十封信，寄给还没到来的年纪。",
-    detail: "印了五十本，送出去三十七本，剩下的放在床底下。有一封写给十年后的自己，到现在还没拆。",
+    detail: "别看了，压根没这玩意，你觉得我是会写这种东西的人吗",
     tags: ["zine", "写作", "手工"]
   },
   {
@@ -133,7 +133,7 @@ window.WORKS = [
 window.POSTS = [
   {
     slug: "a-programme-for-days",
-    title: "把日子过成一张节目单",
+    title: "这个还没来得及改",
     date: "2026-10-18",
     display: "2026.10.18",
     tag: "随笔",
@@ -143,7 +143,7 @@ window.POSTS = [
   },
   {
     slug: "the-city-at-2am",
-    title: "凌晨两点的城市，比白天诚实",
+    title: "这个还没来得及改",
     date: "2026-09-30",
     display: "2026.09.30",
     tag: "城市",
@@ -153,7 +153,7 @@ window.POSTS = [
   },
   {
     slug: "still-playing-records",
-    title: "我为什么还在听一整张唱片",
+    title: "这个还没来得及改",
     date: "2026-08-12",
     display: "2026.08.12",
     tag: "音乐",
@@ -163,12 +163,12 @@ window.POSTS = [
   },
   {
     slug: "a-small-radio-station",
-    title: "开一间很小的电台",
-    date: "2026-06-01",
-    display: "2026.06.01",
-    tag: "关于",
+    title: "（必看）误入互联网藕花深处",
+    date: "2026-10-22",
+    display: "2026.10.22",
+    tag: "序",
     minutes: 4,
-    excerpt: "没有执照，没有赞助，听众可能只有你。但我还是想每天准时开灯。",
+    excerpt: "没有执照，没有赞助，观众可能只有你。但我还是懒得写嘿嘿嘿。",
     file: "posts/a-small-radio-station.html"
   }
 ];
