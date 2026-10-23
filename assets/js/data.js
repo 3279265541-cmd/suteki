@@ -69,9 +69,9 @@ window.WORKS = [
     category: "声音",
     year: "2026",
     cover: "assets/img/work-night.jpg",
-    desc: "一期没有嘉宾的夜间节目：三段音乐，两段絮语，和一段很长的沉默。",
+    desc: "点击此处可以听免费音乐。",
     detail: "夜巡是伦勃朗的代表作（？）",
-    tags: ["电台", "环境音", "自制"],
+    tags: ["何意味", "音乐", "ai真是太好用了"],
     href: "music.html",
     hrefLabel: "点击此处进入互联网深水区"
   },
@@ -81,9 +81,9 @@ window.WORKS = [
     category: "视觉",
     year: "2026",
     cover: "assets/img/work-poster.jpg",
-    desc: "一张给自己做的海报。没有客户，没有 brief，只有一句想了很久的话。",
+    desc: "0张海报。没有客户，没有 brief，只有0句想了很久的话。",
     detail: "好像并没有做过海报。",
-    tags: ["海报", "字体", "自我项目"]
+    tags: ["？", "？", "？"]
   },
   {
     id: "city",
@@ -109,11 +109,11 @@ window.WORKS = [
   },
   {
     id: "zine",
-    title: "写给三十岁前的信",
+    title: "写给三岁前的信",
     category: "文字",
     year: "2025",
     cover: "assets/img/work-zine.jpg",
-    desc: "一本自己印的小册子，二十封信，寄给还没到来的年纪。",
+    desc: "三岁的自己是否拥有阅读能力？不仅令人沉思。",
     detail: "别看了，压根没这玩意，你觉得我是会写这种东西的人吗",
     tags: ["zine", "写作", "手工"]
   },
@@ -123,8 +123,8 @@ window.WORKS = [
     category: "声音",
     year: "2024",
     cover: "assets/img/work-rain.jpg",
-    desc: "在旧房子的窗边录了四十分钟雨。后来发现最好听的是中间那段沉默。",
-    detail: "麦克风放在窗台上，楼下有人在收摊，远处的车压过积水。这些声音后来成了一首曲子的底噪，也成了我对那间房子的全部记忆。",
+    desc: "我不知道这是什么。",
+    detail: "应该也是ai做的吧，你可以当白噪音（？）。",
     tags: ["采样", "环境音", "记忆"]
   }
 ];
@@ -138,7 +138,7 @@ window.POSTS = [
     display: "2026.10.18",
     tag: "随笔",
     minutes: 6,
-    excerpt: "我不太会规划人生，但很擅长给一天排一张节目单。早上是新闻，下午是工作，晚上留给音乐和一点没用的事。",
+    excerpt: "我不太会规划人生，但很擅长给一天排一张课程表。早上是早八，下午是两点零五上课，晚上留给三节水课。",
     file: "posts/a-programme-for-days.html"
   },
   {
@@ -148,7 +148,7 @@ window.POSTS = [
     display: "2026.09.30",
     tag: "城市",
     minutes: 8,
-    excerpt: "白天的城市在上班，凌晨的城市在呼吸。我带着相机走了七次同一条街，最后只留下三张照片。",
+    excerpt: "白天的城市在上班，凌晨的城市在睡觉。我带着大脑走了七次同一条街，最后...",
     file: "posts/the-city-at-2am.html"
   },
   {
