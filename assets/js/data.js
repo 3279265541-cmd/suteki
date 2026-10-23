@@ -153,12 +153,12 @@ window.POSTS = [
   },
   {
     slug: "still-playing-records",
-    title: "这个还没来得及改",
+    title: "欢迎来到糯米鸡的个人网站",
     date: "2026-08-12",
     display: "2026.08.12",
-    tag: "音乐",
+    tag: "日记",
     minutes: 5,
-    excerpt: "从第一首听到最后一首，不跳过，不随机播放。在这个什么都能切的年代，我想保留一点不方便。",
+    excerpt: "某些流水账。",
     file: "posts/still-playing-records.html"
   },
   {
