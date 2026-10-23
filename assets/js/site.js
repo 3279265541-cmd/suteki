@@ -94,7 +94,7 @@
       '<footer class="site-foot">' +
         '<div class="wrap">' +
           '<p class="foot-word">' + esc(S.name) + "</p>" +
-          '<p class="foot-tag">' + esc(S.tagline) + " · 一个很小的深夜电台</p>" +
+          '<p class="foot-tag">' + esc(S.tagline) + " · 一个很小的神秘空间</p>" +
           '<div class="foot-grid">' +
             "<div>" +
               '<p class="foot-label">About</p>' +
